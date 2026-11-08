@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LinkDR MCP is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://linkdr.com
+LinkDR MCP provides a managed backlink building service focused on improving Google and AI search visibility for SaaS and AI brands. It offers AI‑enhanced outreach, editorial placements, and a 60‑day money‑back guarantee, with pricing starting at $160 per link. The platform includes tools for ranking analysis, competitor backlink checking, and automated content creation to help clients outrank competitors in both traditional search and AI‑driven results.
+
+**Areas:** Company · SEO · Backlink · AI · SaaS
+
+## LinkDR MCP on APIs.io
+
+Everything profiled for LinkDR MCP is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/linkdr/](https://apis.io/providers/linkdr/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [LinkDR MCP Admin MCP API](https://apis.io/apis/linkdr/linkdr-admin-mcp-api/) — Operator tools for LinkDR admins: orders, projects, publisher outreach, and customer emails.
+- [LinkDR MCP Agent resources API](https://apis.io/apis/linkdr/linkdr-agent-resources-api/) — Managed-backlink skill, llms.txt index, and per-page markdown negotiation.
+- [LinkDR MCP MCP API](https://apis.io/apis/linkdr/linkdr-mcp-api/) — Your projects, orders, and links, plus cache-first research, behind OAuth 2.1 (any LinkDR account).
+- [LinkDR MCP Public data API](https://apis.io/apis/linkdr/linkdr-public-data-api/) — Read-only endpoints that work without an account, subject to rate limits.
+- [LinkDR MCP System API](https://apis.io/apis/linkdr/linkdr-system-api/) — Health and machine-readable metadata.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Linkdr Agentic Access](https://apis.io/agentic-access/linkdr/linkdr-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [DomainQuickInfo](https://apis.io/schemas/linkdr/linkdr-domain-quick-info/)
+- [HealthStatus](https://apis.io/schemas/linkdr/linkdr-health-status/)
+- [JsonRpcResponse](https://apis.io/schemas/linkdr/linkdr-json-rpc-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Linkdr Context](https://apis.io/jsonld/linkdr/linkdr-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [LinkDR MCP API Rules](https://apis.io/rules/linkdr/linkdr-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Linkdr Authentication](https://apis.io/security/linkdr/linkdr-authentication/)
+- [Linkdr Domain Security](https://apis.io/security/linkdr/linkdr-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Linkdr Scopes](https://apis.io/scopes/linkdr/linkdr-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Linkdr Plans Pricing](https://apis.io/plans/linkdr/linkdr-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://linkdr.com)
+- [Documentation](https://linkdr.com/docs/mcp)
+- [Getting started](https://linkdr.com/onboarding)
+- [API reference](https://linkdr.com/docs)
+- [Pricing](https://linkdr.com/pricing)
+- [Sign up](https://linkdr.com/login)
+- [Support](https://linkdr.com/contact)
+- [Blog](https://linkdr.com/blog)
+- [Terms of service](https://linkdr.com/terms)
+- [Privacy policy](https://linkdr.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.9** — strong · rubric 0.27.0 · scored 2026-11-08
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 59.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 73.2 |
+
+**Agent readiness 53.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/linkdr/](https://apis.io/providers/linkdr/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LinkDR MCP: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/linkdr/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
